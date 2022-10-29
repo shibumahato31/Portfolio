@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+
+html{
+	font-size: 10px;
+}
+
+
+body{
+	width: 100%;
+	height: 80rem;
+	overflow-x: hidden;
+	background-color: #222;
+}
+
+
+/*growth-main section*/
+
+ #growth-main{
+ 	width: 100%;
+ }
+
+ .growth-main{
+ 	width: 100%;
+ 	height: 80rem;
+ 	display: flex;
+ 	/*flex-direction: row;*/
+ 	/*flex-direction: column;*/
+ }
+
+/*common*/
+#nav,#profile,#feed{
+	position: relative;
+}
+
+#nav{
+	width: 20%;
+}
+
+#feed{
+	width: 52%;	
+}
+
+#profile{
+	width: 28%;
+}
+
+
+.main-growth{
+  /*width: 33%;*/
+  height: 80rem;
+  /*border: 2px solid black;*/
+  background-color: white;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  padding: 6rem 2rem 2rem 2rem;
+}
+
+/*end common*/
+
+
+/*nav section*/
+
+ .nav{
+ 	display: flex;
+ 	align-items: center;
+ 	flex-direction: column;
+
+ }
+
+ .nav-head{
+ 	font-size: 2.5rem;
+ }
+
+ .nav-head a{
+ 	color: black;
+ }
+   
+ .nav-main{
+  margin-top: 2.5rem;
+ }
+
+
+.nav-main ul{
+	position: relative;
+ height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}
+
+ .nav-main .navitem{
+ 	list-style: none;
+ 	width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 2rem 0px;
+   transition: 0.4s ease;
+  cursor: pointer;
+  margin-top: 2rem;
+ }
+
+ .nav-main .navitem img{
+ 	 width: 25px;
+ 	
+ }
+
+
+ .nav-main .navitem p{
+   font-size: 1.7rem;
+   font-weight: bold;
+   margin-left: 2rem;
+   transition: 0.2s ease;
+ }
+
+
+
+  .navitem:hover {
+ 	transform: scale(1.2);
+ }
+
+/*end nav section*/
